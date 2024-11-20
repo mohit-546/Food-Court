@@ -1,0 +1,49 @@
+body {
+    padding-top: 100px;
+  }
+  .container-fluid {
+    /* border: 1px solid grey;
+    border-radius: 25px; */
+    box-shadow: 5px 5px 5px 0px rgb(184, 184, 167);
+  }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #i {
+    font-size: 40px;
+  }
+  .a {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(31, 29, 29);
+  }
+  .fresh-food{
+    width: 400px;
+    height: 170px;
+    cursor: pointer;
+  }
+  .fresh-food:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+  }
+  #fresh{
+    border-bottom:1px solid grey ;
+  }
+  #first{
+    width: 435px;
+  }
+  #first:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: grey;
+  }
